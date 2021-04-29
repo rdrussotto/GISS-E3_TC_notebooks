@@ -1,8 +1,11 @@
 # GISS-E3_TC_notebooks
 
-Jupyter notebooks, Python scripts, and data files used to make figures analyzing tropical cyclones (TCs) in the NASA GISS-E3 global climate model. 
+Jupyter notebooks, Python scripts, and data files used to make figures analyzing tropical cyclones (TCs) in the NASA GISS-E3 global climate model.
+Much of this code was adapted from Matlab code written by Jeffrey Strong.
 
-This code is for a paper to be submitted to Journal of Advances in Modeling Earth Systems in 2021 by Rick Russotto, Jeffrey Strong, Suzana Camargo, Adam Sobel, Gregory Elsaesser, Maxwell Kelley, Anthony Del Genio, Yumin Moon, and Daehyun Kim. The code and data will be uploaded to Zenodo upon acceptance of the paper. 
+This code is for a paper to be submitted to Journal of Advances in Modeling Earth Systems in 2021 by 
+Rick Russotto, Jeffrey Strong, Suzana Camargo, Adam Sobel, Gregory Elsaesser, Maxwell Kelley, Anthony Del Genio, Yumin Moon, and Daehyun Kim. 
+The code and data will be uploaded to Zenodo upon acceptance of the paper. 
 
 ### Notebooks used to make figures:
 
@@ -43,6 +46,20 @@ Figures 10 and S1 depend on Matlab scripts (not included here) developed by Yumi
 Figures 11-14 and S2 depend on Matlab scripts developed by Jeffrey Strong (not included here) for processing climate variables in the model results and comparing to observations.
 
 ### Data files:
+
+#### Radial profiles:
+YuminEtAl_Figs.mat
+
+#### Sensitivity test line plots (Figures 11-12): 
+JS_C180_ParamSensTest.mat
+
+JS_C180v2_ParamSensTest.mat
+
+#### Values plotted in color matrix plots for Figures 13, 14, S2:
+(Post NetCDF files here after saving)
+
+### Data files not included due to file size (but will be in final repository):
+
 #### Modeled TC tracks:
 zhao_tracks_v1.nc
 
@@ -60,14 +77,3 @@ storm_centered_reference_winds_v1.nc
 storm_centered_reference_winds_v2.nc
 
 storm_centered_peak_intensity_prec_v1.nc
-
-#### Radial profiles:
-YuminEtAl_Figs.mat
-
-#### Sensitivity test line plots (Figures 11-12): 
-JS_C180_ParamSensTest.mat
-
-JS_C180v2_ParamSensTest.mat
-
-#### Values plotted in color matrix plots for Figures 13, 14, S2:
-(Post NetCDF files here after saving)
