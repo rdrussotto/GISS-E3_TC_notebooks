@@ -7,6 +7,8 @@ This code is for a paper to be submitted to Journal of Advances in Modeling Eart
 Rick Russotto, Jeffrey Strong, Suzana Camargo, Adam Sobel, Gregory Elsaesser, Maxwell Kelley, Anthony Del Genio, Yumin Moon, and Daehyun Kim. 
 The code and data will be uploaded to Zenodo upon acceptance of the paper. 
 
+Vesions of libraries used for paper: Python 3.6.12, NumPy 1.19.2, Matplotlib 3.2.0 (including Basemap), Pandas 1.1.5, XArray 0.16.2, SciPy 1.5.2
+
 ### Notebooks used to make figures:
 
 Figure 1: Plot_Tracks.ipynb
